@@ -10,6 +10,8 @@ development skills, UI/UX design intuition, and proficiency in project setup and
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Installation](#installation)
+    - [Running](#running)
+    - [Building](#building)
 - [Project Structure](#project-structure)
 - [Blog Features](#blog-features)
 - [Color Scheme](#color-scheme)
@@ -41,6 +43,30 @@ Make sure you have the following installed:
 
    ```bash
    npm install
+   ```
+
+### Running the Project
+
+1. To run the project locally, use the following command:
+
+   ```bash
+   npm run dev
+   ```
+
+This will start the development server. Open your browser and visit http://localhost:5173 to view the application.
+
+### Building for Production
+
+If you want to build the project for production, use the following command:
+
+   ```bash
+   npm run build
+   ```
+
+After the build is complete, you can start the production server:
+
+   ```bash
+   npm start
    ```
 
 ### Project Structure
