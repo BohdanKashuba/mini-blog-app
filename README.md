@@ -69,7 +69,7 @@ After the build is complete, you can start the production server:
    npm start
    ```
 
-### Project Structure
+## Project Structure
 
 The project follows the following directory structure:
 
